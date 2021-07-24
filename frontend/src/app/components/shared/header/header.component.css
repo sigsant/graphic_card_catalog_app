@@ -1,0 +1,20 @@
+#brand--container {
+    width: 15em;
+    display: flex;
+    justify-content: space-around;
+}
+
+#routes--container {
+    width: 10em;
+    display: flex;
+    justify-content: space-around;
+}
+
+#text-brand {
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+.space-divider{
+    flex: 1 1 auto;
+}
