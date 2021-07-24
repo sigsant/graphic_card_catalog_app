@@ -14,13 +14,13 @@ Actualmente sólo está disponible el backend. Accede a la carpeta del mismo nom
 
 `$ go run main.go`
 
-Si se quisiera generar un ejecutable con extensión .exe, ejecuta en el mismo directorio:
+Si se quisiera generar un ejecutable con extensión .exe; ejecuta en el mismo directorio:
 
 `$ go build`
 
 En ambos casos se crea un servidor en el puerto 8000 con un único endpoint: 
 
-`http://localhost:8000//graphic-cards`
+`http://localhost:8000/graphic-cards`
 
 <br>
 
