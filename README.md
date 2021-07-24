@@ -1,6 +1,6 @@
 # Web app de catálogo de tarjetas gráficas
 
-**NOTA**: Por problemas de salud, el proyecto se actualizará más lento de lo previsto.
+**NOTA**: Por problemas de salud, el proyecto se actualizará más lentamente de lo previsto.
 
 ### ¿Qué es y qué motivaciones hay en el proyecto?
 
