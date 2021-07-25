@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class HeaderComponent implements OnInit {
+  LogoBrand = "assets/img/logo-graphic-card.svg";
 
   constructor() { }
 

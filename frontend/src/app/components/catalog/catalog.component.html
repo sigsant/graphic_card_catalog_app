@@ -5,6 +5,10 @@
 </div> -->
 
 <mat-grid-list cols="4" rowHeight="2:1">
-    <mat-grid-tile colspan="1">Filter</mat-grid-tile>
-    <mat-grid-tile colspan="3">Catalog</mat-grid-tile>
+    <mat-grid-tile colspan="1">
+        <app-search-filter></app-search-filter>
+    </mat-grid-tile>
+    <mat-grid-tile colspan="3">
+        <app-product-list></app-product-list>
+    </mat-grid-tile>
 </mat-grid-list>
