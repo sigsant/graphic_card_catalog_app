@@ -3,16 +3,26 @@ button {
     color: white;
 }
 
-h2 {
-    font-size: x-large;
+h3 {
+    font-size: large;
     font-variant-ligatures: common-ligatures;
     font-variant-caps: small-caps;
     text-align: center;
 }
 
 #filter--container {
-    border: 10x solid purple;
     display: flex;
     flex-direction: column;
-    gap: 1em;
+}
+
+.filter {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: medium;
+    border: 1px solid blue;
+    border-radius: 10px 10px;
+    height: 10em;
+    padding:1em;
+
 }

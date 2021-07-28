@@ -12,9 +12,12 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatButtonModule} from '@angular/material/button';
 import {MatInputModule} from '@angular/material/input';
+import {MatFormFieldModule} from '@angular/material/form-field';
+
 
 import { SearchFilterComponent } from './components/catalog/search-filter/search-filter.component';
 import { ProductListComponent } from './components/catalog/product-list/product-list.component';
+import { ProductListItemComponent } from './components/catalog/product-list/product-list-item/product-list-item.component';
 
 
 @NgModule({
@@ -25,6 +28,7 @@ import { ProductListComponent } from './components/catalog/product-list/product-
     CatalogComponent,
     SearchFilterComponent,
     ProductListComponent,
+    ProductListItemComponent,
   ],
   imports: [
     BrowserModule,
@@ -34,6 +38,7 @@ import { ProductListComponent } from './components/catalog/product-list/product-
     MatGridListModule,
     MatButtonModule,
     MatInputModule,
+    MatFormFieldModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
